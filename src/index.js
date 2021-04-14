@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import reducer, { initialState } from './reducer';
 import { StateProvider } from './StateProvider';
 
-
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>
@@ -20,4 +19,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-

@@ -13,18 +13,18 @@ function App() {
   return (
     <div className="App">
       {!user ? (
-        <Login />
-      ) : (
-        <Fragment>
-          <Header />
+          <Login />
+        ) : (
+          <Fragment>
+            <Header />
 
-          <div className="app-body">
-            <Sidebar />
-            <Feed />
-            <Widgets />
-          </div>
-        </Fragment>
-      )
+            <div className="app-body">
+              <Sidebar />
+              <Feed />
+              <Widgets />
+            </div>
+          </Fragment>
+        )
       }
     </div>
   );

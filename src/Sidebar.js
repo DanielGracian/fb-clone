@@ -9,8 +9,7 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import { ExpandMoreOutlined } from '@material-ui/icons';
 import { useStateValue } from './StateProvider';
-
-
+ 
 function Sidebar() {
     const [{user}, dispatch] = useStateValue();
 

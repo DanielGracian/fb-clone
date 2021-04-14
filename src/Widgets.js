@@ -15,6 +15,6 @@ function Widgets() {
              ></iframe>
         </div>
     )
-}
+} 
 
 export default Widgets

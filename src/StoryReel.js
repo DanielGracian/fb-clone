@@ -7,7 +7,7 @@ function StoryReel() {
         <div className="storyReel ">
             <Story 
                 image='https://globalgrasshopper.com/wp-content/uploads/2020/03/most-beautiful-places-to-visit-in-Japan-1000x667.jpg' 
-                profileSrc='https://static.toiimg.com/photo/76729750.cms'
+                 profileSrc='https://static.toiimg.com/photo/76729750.cms'
                 title='Erick Beel'
             />
             <Story 

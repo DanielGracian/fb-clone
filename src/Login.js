@@ -19,7 +19,7 @@ function Login() {
         }).catch(err => {
             console.log(err);
         });
-    }
+    } 
     return (
         <div className="login">
             <div className="login-logo">

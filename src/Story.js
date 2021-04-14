@@ -10,6 +10,6 @@ function Story({ image, profileSrc, title }) {
 
         </div>
     )
-}
+} 
 
 export default Story

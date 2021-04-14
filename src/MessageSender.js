@@ -7,9 +7,9 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import { useStateValue } from './StateProvider';
 import db from './firebase';
 import firebase from 'firebase';
-
+ 
 function MessageSender() {
-    const [{user}, dispatch] = useStateValue();
+    const [{ user }, dispatch] = useStateValue();
     const [input, setInput] = useState("");
     const [imageURL, setImageURL] = useState("");
 

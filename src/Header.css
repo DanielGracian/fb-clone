@@ -10,7 +10,7 @@
 }
 
 .header-left{
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
